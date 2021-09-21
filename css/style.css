@@ -1,0 +1,73 @@
+html{
+    font-family:'Ruda', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+    font-family: 'Ruda' 'Times New Roman', Times, serif;
+}
+header{
+    background-color:midnightblue;
+    border-style: solid;
+    border-color:oldlace;
+    position: sticky;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+#titulo{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+section article{
+
+    background-color: white;
+    margin-bottom: 20px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+    
+}
+
+section article h2, section article p{
+    margin:16px;
+}
+section article:hover{
+    
+    box-shadow: 0 0.1rem 0.4rem rgb(34, 33, 33);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(73, 70, 70);
+    padding: 3rem;
+    color: white;
+    
+
+}
+.izq{
+    float: left;
+    margin: 0px;
+}
+.derecha{
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer a:hover{
+    background-color: mediumseagreen;
+    cursor: pointer;
+    transition:  background-color 0.3s ease;
+    
+}
